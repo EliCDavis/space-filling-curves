@@ -31,5 +31,5 @@ func dragonCurve(iterationsLeft int) (mesh.Model, error) {
 		vector.NewVector3(.5, 0, .1),
 		vector.NewVector3(.1, 0, .5),
 		vector.Vector3Forward(),
-	}, iterationsLeft).CreatePipe(0.1)
+	}, iterationsLeft).CreatePipe(0.1, 12)
 }
